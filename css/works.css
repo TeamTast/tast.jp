@@ -1,0 +1,30 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.left{
+    flex-flow: column;
+}
+.title{
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4em;
+    background: -webkit-linear-gradient(-135deg, #84fab0 50%, #8fd3f4);
+    -webkit-background-clip: text;/*背景をテキストでマスクする*/
+    -webkit-text-fill-color: transparent;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.notfound{
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}

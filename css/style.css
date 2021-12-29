@@ -1,0 +1,99 @@
+/* Adobe Fonts */
+    
+    /* Navigo - ナビゲーション用 */
+    @import url("https://use.typekit.net/axn1fqi.css");
+
+/* 終 Adobe Fonts */ 
+
+/* おのれmarginnnnnnnnnnnnnnnnnnnn */
+html,body,header,main,footer,section,div,
+h1,h2,h3,h4,h5,h6,p,a,span,
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+
+/* ドラッグするとちょっと使い勝手悪い */
+img{
+    user-zoom: none;
+	-webkit-user-drag: none;
+	user-select: none;
+}
+
+/* 左右に並べるよー */
+.flexer{
+    display: flex;
+    height: 100%;
+}
+
+/* 左右共通要素 */
+.left,.right{
+    width: 50%;
+    height: 100%;
+}
+
+/* 左 */
+.left{
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 60%;
+    height: auto;
+}
+.left #copyright{
+    position: absolute;
+    bottom: 0.5em;
+    font-family: a-otf-jun-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* 右 */
+.right{
+    background-image: url('../imgs/mountain.webp');
+    background-position: left;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    display: flex;
+}
+/* 右 / ナビゲーション */
+.right #nav{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.right #nav a{
+    margin-left: 5%;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family: navigo, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #76cece;
+    mix-blend-mode: color-dodge;
+    font-size: 1.3em;
+}
+/* 右 / ナビゲーション / 下線ぴょって出る奴 */
+.right #nav a::after{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #FCFCFC;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+}
+.right #nav a:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+}
