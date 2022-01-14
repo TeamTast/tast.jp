@@ -116,12 +116,12 @@ img{
         flex-wrap: wrap;
         justify-content: center;
         background-image: none;
-        color: #474747;
     }
     .right #nav, .right #nav a{
         margin-left: 0.5em;
         margin-right: 0.5em;
         color: #474747;
+        mix-blend-mode: unset;
     }
     .right #nav img{
         display: block;
