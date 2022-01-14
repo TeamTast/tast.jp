@@ -12,7 +12,7 @@
     <div class="flexer">
         <div class="left">
             <img src="imgs/logo.webp" />
-            <p id="copyright">© 2021 Tast</p>
+            <p id="copyright">© 2022 Tast</p>
         </div>
         <?php include('static/right.html'); ?>
     </div>

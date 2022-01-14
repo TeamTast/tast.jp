@@ -14,7 +14,7 @@
         <div class="left">
             <p class="title">WORKS</p>
             <p class="notfound">Not Found...</p>
-            <p id="copyright">© 2021 Tast</p>
+            <p id="copyright">© 2022 Tast</p>
         </div>
         <?php include('static/right.html'); ?>
     </div>

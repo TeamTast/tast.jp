@@ -23,7 +23,7 @@
                 }
             ?>
             <p class="form">Coming soon...</p>
-            <p id="copyright">© 2021 Tast</p>
+            <p id="copyright">© 2022 Tast</p>
         </div>
         <?php include('static/right.html'); ?>
     </div>
