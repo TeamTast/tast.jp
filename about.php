@@ -33,15 +33,7 @@
             </div>
             <p id="copyright">© 2021 Tast</p>
         </div>
-        <div class="right">
-            <div id="nav">
-                <img src="imgs/logo_ta.png" />
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="works.html">WORKS</a>
-                <a href="contact.html">CONTACT</a>
-            </div>
-        </div>
+        <?php include('static/right.html'); ?>
     </div>
 </body>
 </html>
