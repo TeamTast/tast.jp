@@ -116,6 +116,7 @@ img{
         flex-wrap: wrap;
         justify-content: center;
         background-image: none;
+        color: #474747;
     }
     .right #nav, .right #nav a{
         margin-left: 0.5em;
