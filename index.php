@@ -22,6 +22,6 @@
 <!-- 
 
     一緒に開発しよう。 
-    https://tast.jp/contact.php?join=true
+    参加するには、contact.phpのURLパラメーター「join」にtrueを指定します。
 
 -->
