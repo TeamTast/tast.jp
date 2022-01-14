@@ -6,6 +6,7 @@
     <title>ABOUT | Tast</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <script src="js/font.js"></script>
 </head>
 <body>
