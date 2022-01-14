@@ -67,6 +67,9 @@ img{
     align-items: center;
     list-style: none;
 }
+.right #nav img{
+    display: none;
+}
 .right #nav a{
     margin-left: 5%;
     position: relative;
@@ -96,4 +99,36 @@ img{
     bottom: -4px;
     opacity: 1;
     visibility: visible;
+}
+@media screen and (max-width: 750px){
+    body{
+        font-size: 3vw;
+    }
+    .flexer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right, .left{
+        width: 100%;
+    }
+    .right{
+        height: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-image: none;
+    }
+    .right #nav, .right #nav a{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        color: #474747;
+    }
+    .right #nav img{
+        display: block;
+        width: 10%;
+        height: auto;
+    }
+    .left{
+        height: 90%;
+        font-size: 80%;
+    }
 }
