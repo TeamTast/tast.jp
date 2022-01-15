@@ -8,6 +8,9 @@
         transform: translateX(0px);
     }
 }
+body{
+    font-size: 90%;
+}
 .left{
     flex-flow: column;
 }
