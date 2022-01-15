@@ -34,6 +34,7 @@ img{
 /* 左 */
 .left{
     background-color: #FCFCFC;
+    font-size: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;

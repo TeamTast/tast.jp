@@ -19,7 +19,7 @@
                     $join = $_GET['join'];
                 }
                 if($join === "true"){
-                    echo "<style>.title, .form{display:none;}</style><p>nswkpubアットgmail.com に参加希望とメールを送ってください。</p>";
+                    echo "<style>.title, .form{display:none;}</style><p>nswkpubアットgmail.com に参加希望とメールを送ってください。<br>まってまーす！</p>";
                 }
             ?>
             <p class="form">Coming soon...</p>
