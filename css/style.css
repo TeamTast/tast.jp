@@ -117,6 +117,9 @@ img{
         justify-content: center;
         background-image: none;
     }
+    .right #nav{
+        align-items: center;
+    }
     .right #nav, .right #nav a{
         margin-left: 0.5em;
         margin-right: 0.5em;
