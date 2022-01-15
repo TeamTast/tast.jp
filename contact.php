@@ -14,15 +14,15 @@
         <div class="left">
             <p class="title">CONTACT</p>
             <?php
-                session_start();
                 $join = 0;
                 if(isset($_GET['join'])){ 
                     $join = $_GET['join'];
+                    $trueJoin = 1;
                 }
                 if($join === "true"){
                     echo "<style>.title, .form{display: none;}</style><p>nswkpubｱｯﾄgmail.com宛てに参加希望、待ってるぜ！</p>";
-                }else{
-                    echo "<style>.title, .form{display: none;}</style><p>trueでええねん。</p>";
+                }else if($join === "false"){
+                    echo "<style>.title, .form{display: none;}</style><p>falseじゃないよ。";
                 }
             ?>
             <p class="form">Coming soon...</p>
