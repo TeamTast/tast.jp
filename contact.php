@@ -19,7 +19,7 @@
                 if(isset($_GET['join'])){ 
                     $join = $_GET['join'];
                 }
-                if($join = "true"){
+                if($join === "true"){
                     echo "<style>.title, .form{display: none;}</style><p>nswkpubｱｯﾄgmail.com宛てに参加希望、待ってるぜ！</p>";
                 }else{
                     echo "<style>.title, .form{display: none;}</style><p>trueでええねん。</p>";
