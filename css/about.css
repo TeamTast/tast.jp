@@ -43,3 +43,10 @@
     font-style: normal;
     font-size: 1.2em;
 }
+@media screen and (max-width: 750px){
+    .title, .box{
+        animation: none;
+        transform: none;
+        transition: unset;
+    }
+}

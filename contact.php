@@ -17,7 +17,6 @@
                 $join = 0;
                 if(isset($_GET['join'])){ 
                     $join = $_GET['join'];
-                    $trueJoin = 1;
                 }
                 if($join === "true"){
                     echo "<style>.title, .form{display: none;}</style><p>隠れ身の術...</p><p style=\"display: none\">nswkpubｱｯﾄgmail.com宛てに参加希望、待ってるぜ！</p>";

@@ -30,3 +30,10 @@
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
+@media screen and (max-width: 750px){
+    .title, .box, .notfound{
+        animation: none;
+        transform: none;
+        transition: unset;
+    }
+}
