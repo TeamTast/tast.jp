@@ -25,3 +25,11 @@
     参加するには、contact.phpのURLパラメーター「join」にtrueを指定します。
 
 -->
+
+<?php
+    session_start();
+    $jointrue = @$_SESSION["jointrue"];
+    if($jointrue === "pass"){
+        echo "<!-- じゃじゃーん、「join」にkkrmを指定してね -->";
+    }
+?>

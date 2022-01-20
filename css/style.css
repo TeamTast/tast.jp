@@ -47,7 +47,7 @@ img{
 }
 .left #copyright{
     position: absolute;
-    bottom: 0;
+    bottom: 0.5em;
     font-family: a-otf-jun-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -136,5 +136,9 @@ img{
     .left{
         height: 90%;
         font-size: 80%;
+    }
+    .left #copyright{
+        position: unset;
+        margin-top: 1em;
     }
 }

@@ -14,14 +14,19 @@
         <div class="left">
             <p class="title">CONTACT</p>
             <?php
+                session_start();
                 $join = 0;
                 if(isset($_GET['join'])){ 
                     $join = $_GET['join'];
                 }
                 if($join === "true"){
-                    echo "<style>.title, .form{display: none;}</style><p>隠れ身の術...</p><p style=\"display: none\">nswkpubｱｯﾄgmail.com宛てに参加希望、待ってるぜ！</p>";
+                    echo "<style>.title, .form{display: none;}</style><p>隠れ身の術...</p><p style=\"display: none\">甘いぜ</p>";
+                    $_SESSION["jointrue"] = "pass";
                 }else if($join === "false"){
-                    echo "<style>.title, .form{display: none;}</style><p>falseじゃないよ。";
+                    echo "<style>.title, .form{display: none;}</style><p>falseじゃないよ。</p>";
+                }else if($join === "kkrm"){
+                    echo "<style>.title, .form{display: none;}</style><p>頑張ったね！何もないよ！</p> <!-- 会長とか会計長に「Tast入りたい」って言ってみよう！ -->";
+                    unset($_SESSION["jointrue"] );
                 }
             ?>
             <p class="form">Coming soon...</p>
