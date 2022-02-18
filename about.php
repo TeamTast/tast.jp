@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <script src="js/font.js"></script>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@TeamTast" />
+    <meta property="og:url" content="https://tast.jp/about.php" />
+    <meta property="og:title" content="Tast | About" /> 
+    <meta property="og:description" content="身内で結成されたチームです。" /> 
+    <meta property="og:image" content="https://tast.jp/imgs/logo_ta.png" />
 </head>
 <body>
     <div class="flexer">
