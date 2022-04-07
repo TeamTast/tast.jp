@@ -40,6 +40,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .left img{
     width: 60%;
@@ -136,6 +137,10 @@ img{
     .left{
         height: 90%;
         font-size: 80%;
+        align-content: center;
+    }
+    .left img{
+        width: 100%;
     }
     .left #copyright{
         position: unset;
