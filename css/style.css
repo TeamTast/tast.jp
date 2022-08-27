@@ -7,9 +7,6 @@
 
 /* 終 Adobe Fonts */ 
 
-body{
-    aspect-ratio: 16 / 9;
-}
 /* おのれmarginnnnnnnnnnnnnnnnnnnn */
 html,body,header,main,footer,section,div,
 h1,h2,h3,h4,h5,h6,p,a,span,
@@ -109,7 +106,6 @@ img{
 @media screen and (max-width: 750px){
     body{
         font-size: 3vw;
-        aspect-ratio: auto;
         }
     .flexer{
         display: flex;
