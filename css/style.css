@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+/* フォント読み込むまで出さないよ */
+html {
+    visibility: hidden;
+}
+
+html.wf-active,
+html.loading-delay {
+    visibility: visible;
+}
+
+/* 終わり フォント */
+
 /* Adobe Fonts */
     
     /* Navigo - ナビゲーション用 */
