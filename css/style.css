@@ -4,12 +4,9 @@
 html {
     visibility: hidden;
 }
-
-html.wf-active,
-html.loading-delay {
+html.wf-active {
     visibility: visible;
 }
-
 /* 終わり フォント */
 
 /* Adobe Fonts */
