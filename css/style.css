@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* フォント読み込むまで出さないよ */
+/* フォント読み込むまで出さない */
 html {
     visibility: hidden;
 }
@@ -28,8 +28,6 @@ img{
     user-zoom: none;
 	-webkit-user-drag: none;
 	user-select: none;
-    width: auto;
-    height: auto;
 }
 
 /* 左右に並べるよー */
