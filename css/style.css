@@ -8,6 +8,17 @@
 
 /* 終 Adobe Fonts */ 
 
+/* フォント読み終わるまで出さないよ */
+html {
+    visibility: hidden;
+    font-family: dnp-shuei-gothic-gin-std, sans-serif;
+}
+
+html.wf-active,
+html.loading-delay {
+    visibility: visible;
+}
+
 /* おのれmarginnnnnnnnnnnnnnnnnnnn */
 html,body,header,main,footer,section,div,
 h1,h2,h3,h4,h5,h6,p,a,span,
