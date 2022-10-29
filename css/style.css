@@ -151,6 +151,7 @@ img{
         position: unset;
         color: #474747;
         mix-blend-mode: normal;
+        /*yeah*/
     }
     .left{
         width: 80%;
