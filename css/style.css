@@ -150,6 +150,7 @@ img{
     .right #nav a{
         position: unset;
         color: #474747;
+        mix-blend-mode: normal;
     }
     .left{
         width: 80%;
