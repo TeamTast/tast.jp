@@ -121,33 +121,39 @@ img{
         }
     .flexer{
         display: flex;
-        flex-direction: column-reverse;
-    }
-    .right, .left{
-        width: 100%;
+        flex-direction: row;
     }
     .right{
-        height: 10%;
-        flex-wrap: wrap;
+        width: 20%;
+        height: 100%;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: row;
         background-image: none;
+        font-size: 0.9em;
     }
     .right #nav{
-        align-items: center;
-    }
-    .right #nav, .right #nav a{
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-        color: #474747;
-        mix-blend-mode: unset;
+        height: 50%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
     }
     .right #nav img{
-        display: block;
-        width: 10%;
+        display: none;
+    }
+    .right #nav .mobile{
+        width: 80%;
         height: auto;
+        display: inline-block;
+    }
+    .right #nav a{
+        position: unset;
+        color: #474747;
     }
     .left{
-        height: 90%;
+        width: 80%;
+        height: 100%;
         font-size: 80%;
         align-content: center;
     }
