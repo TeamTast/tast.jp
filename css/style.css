@@ -9,9 +9,8 @@
 /* 終 Adobe Fonts */ 
 
 html {
-    visibility: hidden;
     font-family: dnp-shuei-gothic-gin-std, sans-serif;
-    font-display: block;
+    font-display: optical;
 }
 
 /* おのれmarginnnnnnnnnnnnnnnnnnnn */
